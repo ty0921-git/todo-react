@@ -1,4 +1,49 @@
-.App {
+body {
   font-family: sans-serif;
+}
+
+h1 {
+  color: #00897b;
+  font-size: 1.5rem;
+}
+
+button {
+  background: #00897b;
+  color: #fff;
+  border: 0;
+  padding: 0.3rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 2px;
+}
+
+button:hover {
+  background: #009688;
+}
+
+.title {
   text-align: center;
+  font-weight: bold;
+  color: #00897b;
+  font-size: 1.2rem;
+}
+
+.list-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.1rem;
+}
+
+.list-row div {
+  margin-left: 1rem;
+}
+
+.incomplete-area {
+  background-color: #f1f8e9;
+  padding: 1rem;
+}
+
+.complete-area {
+  background-color: #e8f5e9;
+  padding: 1rem;
 }
